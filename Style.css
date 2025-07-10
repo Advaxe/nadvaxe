@@ -1,0 +1,114 @@
+        #article img
+        {
+            width:150px;
+            height:150px;
+            border-radius:50px;
+        }
+        body
+        {
+            background: url('class2.jpg') repeat;
+        }
+        #programme
+        {
+            display:flex;
+            justify-content:space-around;
+            margin:20px;
+            border-radius: 20px;
+
+        }
+        #programme img{
+            text-align:justify;
+            padding:10px;
+            width:300px;
+            border: 5px solid #3498db;
+            box-shadow: 14px 4px 5px white;
+            border-radius:50px;
+            /*box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);*/
+        }
+        #programme p{
+            font-size:15px;
+            border: 5px double skyblue;
+            box-shadow: 6px 6px 0px green;
+        }
+
+        #article{
+            display:flex;
+            justify-content:space-around;
+            margin:20px;
+        }
+        #article img,p{
+            text-align:justify;
+            padding:10px;
+            width:300px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            font-family: 'Century Gothic', sans-serif;
+            padding: 10px;
+            background-color: #309ef3; 
+            border-radius: 5px;
+            display: inline-block;
+        }
+        span 
+        {
+            font-weight: bold;
+            display: block;
+            text-align: center;
+            margin: 10px;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+/*            border-bottom: 1px solid #ccc;*/
+        }
+        .logo {
+            margin: 0;
+            text-align: left; /* Aligne le texte à gauche */
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0; 
+            margin: 0; 
+            display: flex;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none; 
+            color: #3498db; 
+            font-weight: bold; 
+        }
+
+        .recherche img {
+            width: 120px; 
+            height: 50px;
+        }
+        .logo img {
+            width: 250px; 
+            height: 75px; 
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 10px 20px; 
+            background-color: #e6ebf0; 
+            border: 4px dashed #000; 
+        }
+        .btn_login{
+            background-color: green;
+            border:4px dashed #000 ;
+        }
